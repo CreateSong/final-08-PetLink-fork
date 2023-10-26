@@ -32,10 +32,18 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     color: inherit;
   }
-`;
+
+  
+input {
+  border: none;
+  outline: none;
+}
+  
+`
 
 export const Container = styled.div`
   width: 100%;
+  height: 100vh;
   max-width: 390px;
   margin: 0 auto;
   background-color: white;

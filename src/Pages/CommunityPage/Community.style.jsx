@@ -49,7 +49,6 @@ export const CommunityCategory = styled.div`
   }
 `;
 
-
 // Share Info Map
 export const ShareInfoMap = styled.div`
   margin: 0 21px 28px;

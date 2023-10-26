@@ -14,7 +14,7 @@ export const HomeHeader = styled.header`
   height: 48px;
   padding: 12px 16px;
   border-bottom: 1px solid #DBDBDB;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 
   img{
     height: 21px;
@@ -41,6 +41,8 @@ export const UserProfile = styled.div`
     width: 42px;
     height: 42px;
     border-radius: 50%;
+    object-fit: cover;
+    vertical-align: top;
   }
 `
 
@@ -109,13 +111,13 @@ export const PostIcons = styled.div`
   display: flex;
   align-items: center;
   justify-content: start; 
-  gap: 17px;
+   gap: 17px;
   
-  button {
+   button {
     cursor: pointer;
-  }
-
-  img {
+   }
+   
+   img {
     vertical-align: text-bottom;
     width: 15px;
     height: 15px;
@@ -181,8 +183,8 @@ padding-bottom:60px;
 `
 // 댓글 입력창 컴포넌트
 export const InputForm = styled.form`
-    border-top: 1px solid #dbdbdb;
-    display: flex;
+  border-top: 1px solid #dbdbdb;
+   display: flex;
     justify-content: space-between;
     align-items: center;
     width: 390px;
@@ -192,7 +194,7 @@ export const InputForm = styled.form`
     background-color: #fff;
     border-top: 1px solid #DBDBDB ;
     z-index: 1;
-
+ 
     img{
       vertical-align: top;
       width:36px ;
